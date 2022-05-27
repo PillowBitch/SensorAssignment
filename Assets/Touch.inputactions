@@ -1,0 +1,57 @@
+{
+    "name": "Touch",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "e9fa0331-0fe3-41c8-9d3f-12c213cca9dc",
+            "actions": [
+                {
+                    "name": "Button",
+                    "type": "Button",
+                    "id": "5a36b59b-3041-41d1-923f-b8213c9dfc58",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d8945e70-e4e7-4697-8714-022c7a409eae",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch;Mouse",
+                    "action": "Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
